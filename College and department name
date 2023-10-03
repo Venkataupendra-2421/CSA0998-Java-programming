@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) 
+  {
+    Scanner input = new Scanner (System.in);
+    System.out.print("Enter your college name: ");
+    String cname = input.next();
+    System.out.print("Enter your department name: ");
+    String dname = input.next();
+    System.out.println();
+    System.out.println("My college name is: "+cname);
+     System.out.println("My department is: "+dname);
+  }
+}
